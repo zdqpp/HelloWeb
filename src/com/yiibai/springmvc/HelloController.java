@@ -18,7 +18,7 @@ public class HelloController {
     @RequestMapping(method = RequestMethod.GET)
     public String printHello1(ModelMap model) {
         model.put("message", "Hello Spring MVC");
-        return "hello";
+        return "hello";  
     }
 
 }
