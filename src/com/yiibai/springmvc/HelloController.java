@@ -11,7 +11,7 @@ public class HelloController {
 
     @RequestMapping("/get")
     public String printHello(ModelMap model) {
-        model.put("message", "Hello Spring MVC Frameworkddd");
+        model.put("message", "Hello Spring MVC Frameworkeee");
         return "hello";
     }
     
